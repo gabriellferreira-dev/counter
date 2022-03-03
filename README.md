@@ -1,4 +1,4 @@
-<div align="center" id="top"> 
+<div align="center" id="top">
   <img src="./.github/app.gif" alt="Counter React" />
 
   &#xa0;
@@ -17,28 +17,14 @@
 
   <img alt="Licença" src="https://img.shields.io/github/license/gabriellferreira-dev/counter-react?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/gabriellferreira-dev/counter-react?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/gabriellferreira-dev/counter-react?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/gabriellferreira-dev/counter-react?color=56BEB8" /> -->
 </p>
 
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Counter React 🚀 Em construção...  🚧
-</h4> 
-
-<hr> -->
-
 <p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-pré-requisitos">Pré requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
-  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="#como_usar">Como usar o botão</a> &#xa0; | &#xa0;
   <a href="https://github.com/gabriellferreira-dev" target="_blank">Autor</a>
 </p>
 
@@ -46,23 +32,17 @@
 
 ## :dart: Sobre ##
 
-Sobre o seu projeto
+Esse é um projeto simples, realizado como teste para uma vaga de front-end, onde deveria criar um componente (Botão) que seria utilizado outras vezes. Para demonstrar seu uso, criei um simples contador.
 
-## :sparkles: Funcionalidades ##
-
-:heavy_check_mark: Funcionalidade 1;\
-:heavy_check_mark: Funcionalidade 2;\
-:heavy_check_mark: Funcionalidade 3;
 
 ## :rocket: Tecnologias ##
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Styled-Components](https://styled-components.com/)
 
 ## :white_check_mark: Pré requisitos ##
 
@@ -86,9 +66,29 @@ $ yarn start
 # O app vai inicializar em <http://localhost:3000>
 ```
 
-## :memo: Licença ##
+## :como_usar: Como usar o componente ##
 
-Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+1º - Deve importar do diretório "/components/Button" o botão;
+2º - Inserir no código.
+```
+  <div>
+    <Button>Adicionar</Button>
+  </div>
+```
+3º - Passar as configurações do botão.
+* **color** - primary | secondary
+* **icon** - arrow-right | check | refresh
+* Dentre outras opções que recebe o botão.
+
+```
+  <div color="primary">
+    <Button>Adicionar</Button>
+  </div>
+
+  <div color="secondary" icon="check">
+    <Button>Adicionar</Button>
+  </div>
+```
 
 
 Feito com :heart: por <a href="https://github.com/gabriellferreira-dev" target="_blank">Gabriel Ferreira</a>
