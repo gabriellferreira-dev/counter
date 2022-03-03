@@ -1,9 +1,9 @@
-import { ButtonHTMLAttributes, FC } from 'react';
+import React, { ButtonHTMLAttributes, FC } from 'react';
 import { AiOutlineArrowRight, AiOutlineCheck } from 'react-icons/ai';
 import { IoRefreshSharp } from 'react-icons/io5';
 import { Container } from './styles';
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   color: 'primary' | 'secondary';
   icon?: 'arrow-right' | 'check' | 'refresh';
 }
@@ -19,7 +19,7 @@ const Button: FC<ButtonProps> = ({ children, icon, ...attributes }) => {
   return (
     <Container {...attributes} icon={!!icon}>
       {children}
-      {icon && <Icon />}
+      {icon && <Icon data-testid="icon" />}
     </Container>
   );
 };
