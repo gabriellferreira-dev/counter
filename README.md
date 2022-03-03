@@ -1,33 +1,33 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Couter React" />
+  <img src="./.github/app.gif" alt="Counter React" />
 
   &#xa0;
 
-  <!-- <a href="https://couterreact.netlify.com">Demo</a> -->
+  <!-- <a href="https://counterreact.netlify.com">Demo</a> -->
 </div>
 
-<h1 align="center">Couter React</h1>
+<h1 align="center">Counter React</h1>
 
 <p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/gabriellferreira-dev/couter-react?color=56BEB8">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/gabriellferreira-dev/counter-react?color=56BEB8">
 
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/gabriellferreira-dev/couter-react?color=56BEB8">
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/gabriellferreira-dev/counter-react?color=56BEB8">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/gabriellferreira-dev/couter-react?color=56BEB8">
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/gabriellferreira-dev/counter-react?color=56BEB8">
 
-  <img alt="Licença" src="https://img.shields.io/github/license/gabriellferreira-dev/couter-react?color=56BEB8">
+  <img alt="Licença" src="https://img.shields.io/github/license/gabriellferreira-dev/counter-react?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/gabriellferreira-dev/couter-react?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/gabriellferreira-dev/counter-react?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/gabriellferreira-dev/couter-react?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/gabriellferreira-dev/counter-react?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/gabriellferreira-dev/couter-react?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/gabriellferreira-dev/counter-react?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
 
 <!-- <h4 align="center"> 
-	🚧  Couter React 🚀 Em construção...  🚧
+	🚧  Counter React 🚀 Em construção...  🚧
 </h4> 
 
 <hr> -->
@@ -72,10 +72,10 @@ Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.co
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/gabriellferreira-dev/couter-react
+$ git clone https://github.com/gabriellferreira-dev/counter-react
 
 # Entre na pasta
-$ cd couter-react
+$ cd counter-react
 
 # Instale as dependências
 $ yarn
